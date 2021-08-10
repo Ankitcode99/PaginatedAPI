@@ -1,0 +1,28 @@
+{
+  "name": "paginatedapi",
+  "version": "1.0.0",
+  "description": "Pagination using Node.JS",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ankitcode99/PaginatedAPI.git"
+  },
+  "author": "AnkitCode99",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ankitcode99/PaginatedAPI/issues"
+  },
+  "homepage": "https://github.com/Ankitcode99/PaginatedAPI#readme",
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "helmet": "^4.6.0",
+    "mongoose": "^5.13.6",
+    "nodemon": "^2.0.12"
+  }
+}
